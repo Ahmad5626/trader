@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trader </title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+</head>
+
+<body>
+    <!-- header -->
+    <div class="barside">
+        <ul class="flex justify-between  flex-col gap-2 mt-12">
+            <li><a href="" class="hover:text-[#e7c873] font-semibold">Home</a></li>
+            <li><a href="" class="hover:text-[#e7c873] font-semibold">Our Story </a></li>
+            <li><a href="" class="hover:text-[#e7c873] font-semibold">Products </a></li>
+            <li><a href="" class="hover:text-[#e7c873] font-semibold">know your rug</a></li>
+            <li><a href="" class="hover:text-[#e7c873] font-semibold">Catalog </a></li>
+            <li><a href="" class="hover:text-[#e7c873] font-semibold">Gallery </a></li>
+            <li><a href="" class="hover:text-[#e7c873] font-semibold">Blog </a></li>
+            <li><a href="" class="hover:text-[#e7c873] font-semibold">Contact </a></li>
+        </ul>
+
+    </div>
+    <header class="fixed top-3 left-0 right-0 z-50 bg-white bg-[white];">
+        <nav class="custom-container py-4 flex justify-between items-center ">
+            <div class="logo">
+
+                <a href="index.html">
+                    <img src="./img/Logo.png" class="w-[130px]" alt="">
+                </a>
+
+            </div>
+            <div class="bar md:hidden" onclick="openNav()">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+
+
+            <div class="nav hidden md:block">
+
+                <div class="nav2">
+
+                    <ul class="flex justify-between items-center gap-10">
+                        <li><a href="" class="hover:text-[#e7c873] font-semibold">Home</a></li>
+                        <li><a href="" class="hover:text-[#e7c873] font-semibold">Our Story </a></li>
+                        <li><a href="" class="hover:text-[#e7c873] font-semibold">Products </a></li>
+                        <li><a href="" class="hover:text-[#e7c873] font-semibold">know your rug</a></li>
+                        <li><a href="" class="hover:text-[#e7c873] font-semibold">Catalog </a></li>
+                        <li><a href="" class="hover:text-[#e7c873] font-semibold">Gallery </a></li>
+                        <li><a href="" class="hover:text-[#e7c873] font-semibold">Blog </a></li>
+                        <li><a href="" class="hover:text-[#e7c873] font-semibold">Contact </a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+
+        </nav>
+    </header>
+
+
+
+    
+    <!-- main banner -->
+    <section
+        class="main-banner  bg-[url('./img/Blog-&-Article.jpg')] h-[400px] bg-no-repeat bg-cover relative overflow-hidden">
+<div class="custom-container pt-10">
+            <div class="flex justify-center items-end h-[200px]   md:flex-nowrap flex-wrap">
+
+                <h6 class="text-4xl font-semibold text-[white]" data-aos="fade-up" data-aos-duration="1000">Catalog
+                </h6>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- popup -->
+
+    <div class="popup">
+        <div class="wrapper fadeInDown ">
+            <div id="formContent" class="py-20">
+              <!-- Tabs Titles -->
+              <h2 class="active"> Sign In </h2>
+        
+        
+              <!-- Icon -->
+        
+        
+              <!-- Login Form -->
+              <form>
+                <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+                <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+                <input type="submit" class="fadeIn fourth" value="Log In">
+              </form>
+        
+              <!-- Remind Passowrd -->
+        
+        
+            </div>
+          </div>
+    </div>
+    <!-- blog -->
+
+    <div class="relative bg-gray-50 px-6 pt-40 pb-20 lg:px-8 lg:pt-40 lg:pb-28">
+        <div class="absolute inset-0">
+            <div class="h-1/3 bg-white sm:h-2/3"></div>
+        </div>
+        <div class="relative mx-auto max-w-7xl">
+            <div class="text-center">
+                <p class="mx-auto mt-3 max-w-2xl text-xl text-[#DA2127] font-bold ">
+                    Catalog </p>
+                <h2 class="text-3xl font-bold tracking-tight text-[#2A2D7A] py-5 sm:text-4xl">Read Our Latest
+                    Catalog </h2>
+
+            </div>
+            <div class="mx-auto mt-12 grid max-w-lg gap-12 lg:max-w-none lg:grid-cols-3 ">
+
+
+                <!-- 1 -->
+                <div class="flex flex-col overflow-hidden rounded-xl shadow-lg" data-aos="fade-up"
+                    data-aos-duration="1500">
+                    <div class="flex-shrink-0">
+                        <img class="h-48 w-full object-cover" src="./img/Handtufted.jpg" alt="">
+                    </div>
+                    <div class="flex flex-1 flex-col justify-between bg-white px-6 py-10">
+                        <div class="flex-1">
+                            <div class="flex pb-5">
+                                <!-- <div class="flex items-center gap-2 border-r-2 border-[#2A2D7A] pr-5">
+                                <div class="">
+                                    <img src="./img/user-icon.svg" alt="">
+                                </div>
+                                <p>By SS Balaji</p>
+
+                            </div>
+                            <div class="flex items-center gap-2  px-5">
+                                <div class="">
+                                    <img src="./img/date-icon.svg" alt="">
+                                </div>
+                                <p>04 September, 2024</p>
+
+                            </div> -->
+
+                            </div>
+                            <a href="#" class="mt-2 block">
+                                <p class="text-2xl font-semibold text-[#2A2D7A]"> Lorem ipsum dolor sit amet
+                                    consectetur, adipisicing elit. Possimus nulla </p>
+
+                                <div class="mt-10">
+                                    <button class="blog-box-button-1">
+                                        <a href=""
+                                            class="blog-box-button  hover:text-[#e7c873] py-3 px-5 text-white transition duration-75 ">Read
+                                            More</a>
+                                    </button>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="flex flex-col overflow-hidden rounded-xl shadow-lg" data-aos="fade-up"
+                    data-aos-duration="1500">
+                    <div class="flex-shrink-0">
+                        <img class="h-48 w-full object-cover" src="./img/Flatweave.jpg" alt="">
+                    </div>
+                    <div class="flex flex-1 flex-col justify-between bg-white px-6 py-10">
+                        <div class="flex-1">
+                            <div class="flex pb-5">
+                                <!-- <div class="flex items-center gap-2 border-r-2 border-[#2A2D7A] pr-5">
+                    <div class="">
+                        <img src="./img/user-icon.svg" alt="">
+                    </div>
+                    <p>By SS Balaji</p>
+
+                </div>
+                <div class="flex items-center gap-2  px-5">
+                    <div class="">
+                        <img src="./img/date-icon.svg" alt="">
+                    </div>
+                    <p>20 May, 2024</p>
+
+                </div> -->
+
+                            </div>
+                            <a href="#" class="mt-2 block">
+                                <p class="text-2xl font-semibold text-[#2A2D7A]">Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Possimus nulla</p>
+
+                                <div class="mt-10">
+                                    <button class="blog-box-button-1">
+                                        <a href=""
+                                            class="blog-box-button  hover:text-[#e7c873] py-3 px-5 text-white transition duration-75 ">Read
+                                            More</a>
+                                    </button>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- 3 -->
+
+                <div class="flex flex-col overflow-hidden rounded-xl shadow-lg" data-aos="fade-up"
+                    data-aos-duration="1500">
+                    <div class="flex-shrink-0">
+                        <img class="h-48 w-full object-cover" src="./img/Handloom.jpg" alt="">
+                    </div>
+                    <div class="flex flex-1 flex-col justify-between bg-white px-6 py-10">
+                        <div class="flex-1">
+                            <!-- <div class="flex pb-5">
+                <div class="flex items-center gap-2 border-r-2 border-[#2A2D7A] pr-5">
+                    <div class="">
+                        <img src="./img/user-icon.svg" alt="">
+                    </div>
+                    <p>By SS Balaji</p>
+
+                </div>
+                <div class="flex items-center gap-2  px-5">
+                    <div class="">
+                        <img src="./img/date-icon.svg" alt="">
+                    </div>
+                    <p>16 March, 2024</p>
+
+                </div>
+
+            </div> -->
+                            <a href="#" class="mt-2 block">
+                                <p class="text-2xl font-semibold text-[#2A2D7A]"> Lorem ipsum dolor sit amet
+                                    consectetur, adipisicing elit. Possimus nulla</p>
+
+                                <div class="mt-10">
+                                    <button class="blog-box-button-1">
+                                        <a href=""
+                                            class="blog-box-button  hover:text-[#e7c873] py-3 px-5 text-white transition duration-75 ">Read
+                                            More</a>
+                                    </button>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer class="bg-[#f8f7e9] text-gray-700 py-12 px-4 md:px-8 lg:px-16">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- WORKING HOURS -->
+                <div>
+                    <h3 class="font-semibold text-lg mb-4">WORKING HOURS</h3>
+                    <div class="space-y-2">
+                        <p>Mon-Fri: 9 AM – 6 PM</p>
+                        <p>Saturday: 9 AM – 4 PM</p>
+                        <p>Sunday: closed</p>
+                    </div>
+                </div>
+
+                <!-- OFFICE -->
+                <div>
+                    <h3 class="font-semibold text-lg mb-4">OFFICE</h3>
+                    <div class="space-y-2">
+                        <p>Vindhyachal, Mirzapur, Uttar Pradesh, India 231001</p>
+                        <p>Textile.trove.in@gmail.com</p>
+                        <p>+49-1522-2368997</p>
+                        <p>+91-9555094909</p>
+                    </div>
+                </div>
+
+                <!-- LINKS -->
+                <div>
+                    <h3 class="font-semibold text-lg mb-4">LINKS</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:underline">Home</a></li>
+                        <li><a href="#" class="hover:underline">Our Story</a></li>
+                        <li><a href="#" class="hover:underline">Products</a></li>
+                        <li><a href="#" class="hover:underline">Gallery</a></li>
+                        <li><a href="#" class="hover:underline">Blogs</a></li>
+                        <li><a href="#" class="hover:underline">Contacts</a></li>
+                    </ul>
+                </div>
+
+                <!-- GET IN TOUCH -->
+                <div>
+                    <h3 class="font-semibold text-lg mb-4">GET IN TOUCH</h3>
+                    <div class="flex space-x-2">
+                        <a href="#" class="border border-gray-500 p-2 hover:bg-gray-100 transition-colors">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="border border-gray-500 p-2 hover:bg-gray-100 transition-colors">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="border border-gray-500 p-2 hover:bg-gray-100 transition-colors">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="border-t border-gray-400 my-8"></div>
+
+            <!-- Bottom Footer -->
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="flex space-x-6 mb-4 md:mb-0">
+                    <a href="#" class="hover:underline">Privacy Policy</a>
+                    <a href="#" class="hover:underline">Term & Condition</a>
+                </div>
+                <div>
+                    <p>Textile Trove © 2025. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function openNav() {
+            document.getElementsByClassName("barside")[0].classList.toggle("barside1");
+        }
+
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            slidesPerView: 1,
+            spaceBetween: 30,
+            // centeredSlides: true,
+            // autoplay: {
+            //     delay: 2500,
+            //     disableOnInteraction: false,
+            // },            
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 1,
+                    spaceBetween: 50,
+                },
+            },
+        });
+    </script>
+
+    <script>
+        AOS.init();
+    </script>
+
+
+    <script>
+        const targets = [
+            { element: document.getElementById('starsCount'), count: 69, suffix: 'K' },
+
+            { element: document.getElementById('sponsorsCount'), count: 10, suffix: 'K' },
+            { element: document.getElementById('sponsorsCount2'), count: 20, suffix: '' }
+        ];
+
+        // Find the maximum count among all targets
+        const maxCount = Math.max(...targets.map(target => target.count));
+
+        // Function to animate count-up effect
+        function animateCountUp(target, duration) {
+            let currentCount = 0;
+            const effectiveDuration = Math.max(duration, 2000); // At least 2 seconds
+            const increment = Math.ceil(target.count / (duration / 50));
+
+            const interval = setInterval(() => {
+                currentCount += increment;
+                if (currentCount >= target.count) {
+                    clearInterval(interval);
+                    currentCount = target.count;
+                    target.element.textContent = currentCount + target.suffix;
+                } else {
+                    target.element.textContent = currentCount;
+                }
+            }, 50);
+        }
+
+        // Animate count-up for each target with adjusted duration
+        targets.forEach(target => {
+            const adjustedDuration = (target.count / maxCount) * 2000;
+            animateCountUp(target, adjustedDuration); // Adjust duration based on max count
+        });
+
+    </script>
+</body>
+
+</html>
